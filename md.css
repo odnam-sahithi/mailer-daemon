@@ -1,18 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(to right,hsla(348,97%,63%,0.65),hsla(230,96%,62%,0.65)),url("IITISM.jpg");
+    background-size: cover;
+    height:100vh; 
+                   
+}
+ 
+.card{
+position:relative;
+display:block;    
+max-width: 1000px;
+padding:50px;
+box-shadow: 0 15px 20px rgba(0,0,0,.2);
+}
+
+
 @keyframes head1{
     0% { background-color: floralwhite; 
             border-width:inherit}
     25%{ background-color:mistyrose;
-        border-width:inherit}
-   
-   
-   
+        border-width:inherit}  
 }
-/* h1{
+h1{
     
+    animation: type 1s steps(14) infinite alternate;
     overflow:hidden;
     white-space: nowrap;
     border-right:4px solid black;
-    width:13ch;}
+    width:13ch;
+    margin-left:500px;
+    color: black;   
+}
     
     @keyframes type{
     0%{
@@ -21,27 +42,12 @@
     100%{
         width:14ch;
     }
-    } */
+    } 
 #header h1{
-    display:flex;
-    /* border-radius: 20%; */
-  animation: type 3s steps(14) infinite alternate;
-    margin-left: 25%;
-    margin-right: 20%;
-    flex-direction:column;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-family: fantasy;
-    font-size: 100px;
-    color:firebrick;
-    animation-name: head1;
-    animation-duration: 4s;
-  
-    animation-iteration-count: infinite;
-    
+    display:flex;   
 }
+
+
 #main-notice{
 display:flex;
 flex-direction:row;
@@ -50,8 +56,8 @@ flex-direction: column;
 align-content: center;
 justify-content:center;
 flex-basis:200px;
-
 }
+
 .notice-head{
     margin-top:40px;
     display:flex;
