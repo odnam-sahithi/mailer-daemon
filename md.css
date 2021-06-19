@@ -27,7 +27,7 @@ box-shadow: 0 15px 20px rgba(0,0,0,.2);
 }
 h1{
     
-    animation: type 1s steps(14) infinite alternate;
+    animation: type 2s steps(14) infinite alternate;
     overflow:hidden;
     white-space: nowrap;
     border-right:4px solid black;
@@ -64,4 +64,50 @@ align-items: center;
     font-family: cursive;
     border: 2px black dashed;
     
+}
+/* MOdal edits */
+.modal-container1{
+    background-color:rgba(0,0,0,0.3);
+    position:fixed;
+    top:0;
+    /* left:0; */
+    height:100vh;
+    width:100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.modal1{
+    margin: 20vh 10vw;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: white;
+    padding:10px;
+    border-radius: 20px;
+    height:50vh;
+    
+}
+.show{
+    display:block;
+}
+.hide{
+    display:none;
+}
+button{
+    border: black 2px solid;
+    border-bottom-left-radius: 15px;
+    float:center;
+    padding:6px;
+    background-color: lightgreen;
+    font-size: medium;
+    border-radius: 50em;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color:red;
+    color: white;
+    border-radius: 20px;
+
 }
