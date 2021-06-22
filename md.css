@@ -27,7 +27,7 @@ box-shadow: 0 15px 20px rgba(0,0,0,.2);
 }
 h1{
     
-    margin-left:30vw;
+    
     animation: type 2s steps(14) infinite alternate;
     overflow:hidden;
     white-space: nowrap;
@@ -47,8 +47,10 @@ h1{
     } 
 #header-1 {
    display:flex;
- margin-top: 20px;
- padding:20px;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin:20px;
 }
 
 
