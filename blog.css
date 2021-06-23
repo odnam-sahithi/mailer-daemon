@@ -1,3 +1,42 @@
+.body{
+    background: greenyellow;
+}
+
 .title{
     text-align: center;
+    color:black;
 }
+.header{
+    width: 150px;
+    height:60px;
+    border-radius: 5px;
+    margin:30px 500px 10px 550px;
+    background:orange;
+}
+.card-body{
+    background:orange;  
+}
+.card-text{
+    color:black;
+}
+.card-title{
+    color:black;
+    margin-left: 10px;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px gray;
+    border: 100px;
+    z-index: 0;
+    transition: 0.2s all;
+    
+}
+
+card:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+    transform:scale(1.05);
+}
+
+
+
