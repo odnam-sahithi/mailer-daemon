@@ -12,7 +12,7 @@
 <body>
     <div class="main">
         <div class="header">
-            <h1 class="title">Blogs</h1>
+            <h2 class="title">Blogs</h2>
         </div>
         <!--<div class="slide hi-slide">
             <div class="hi-prev"></div>
@@ -68,11 +68,14 @@
             <img src="image1.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                <p class="card-text">Some  text to build on the card title and make up the bulk of the
                     card's content.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="btn btn-primary card-button" onclick="open1(this.id)">Read More</a>
+               
             </div>
-        </div></div>
+              <!-- mybutton -->
+              <button class="like-button" onclick="like(this.id)">likes</button>                      
+           </div></div>
         <div class="carousel-cell">            
             <div class="card" style="width: 18rem;">
             <img src="image1.jpeg" class="card-img-top" alt="...">
@@ -80,8 +83,9 @@
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="btn btn-primary card-button" onclick="open1(this.id)">Read More</a>
             </div>
+            <button class="like-button" onclick="like(this.id)">likes</button>   
         </div></div>
         <div class="carousel-cell"> 
         <div class="card" style="width: 18rem;">
@@ -90,8 +94,9 @@
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="btn btn-primary card-button" onclick="open1(this.id)">Read More</a>
             </div>
+            <button class="like-button" onclick="like(this.id)">likes</button>   
         </div></div>
         <div class="carousel-cell"> 
             <div class="card" style="width: 18rem;">
@@ -100,8 +105,9 @@
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <a href="#" class="btn btn-primary card-button "onclick="open1(this.id)">Read More</a>
                 </div>
+                <button class="like-button" onclick="like(this.id)">likes</button>         
             </div></div>
         <div class="carousel-cell">            
             <div class="card" style="width: 18rem;">
@@ -110,12 +116,26 @@
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="btn btn-primary card-button" onclick="open1(this.id)">Read More</a>
             </div>
+            <button class="like-button" onclick="like(this.id)">likes</button>         
         </div></div>
-      </div>
+      </div>.  <!-- The sample MODal -->
+      <div class="modal-container1 hide" id="container1">
+        <div class="modal1" id="modal0" >
+            <h2>This is my modal</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, officiis tempore. Nostrum, provident veritatis hic, quibusdam illum veniam quisquam, tempore laboriosam vel magnam doloribus perferendis nam facilis labore corporis animi?</p>
+           
+            <button id="close" onclick="closeme()">
+                close
+            </button>
+        </div>
+     
+    </div>
       
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="blog.js"></script>
+    
 </body>
 
 </html>
