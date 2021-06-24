@@ -3,9 +3,9 @@ body{
 }
 .title{
     font-family: fantasy;
-    font-size: 100px;
+    font-size: 50px;
     border: 0.1px black;
-    background-color: burlywood;
+    background-color:#F4A460;
 }
 .header{
     display:flex;
@@ -13,9 +13,7 @@ body{
     padding:70px;
     justify-content: center;
     align-items: flex-end;
-
 }
-/* CARD EDITS */
 .card-body{
     background:#F4A460;  
 }
@@ -24,14 +22,27 @@ body{
 }
 .card-title{
     color:black;
-    
+
 }
 .card{
-   margin :0 7px;
-   
+   margin :0 8px;
+   box-shadow: 2px 2px 4px gray;
+
 }
 .main-carousel{
     margin-top:1vh;
+}
+
+
+.card-body{
+    background:#F4A460;  
+}
+.card-text{
+    color:black;
+}
+.card-title{
+    color:black;
+    margin-left: 10px;
 }
 
 /*card hovering*/
@@ -80,17 +91,30 @@ body{
     }
 
     /*button*/
-    button{
+    .card-button{
     float:center;
     padding:6px;
     color: green;
     font-size: medium;
     background: #F4A460;
     border-radius: 10px;
-    }
-    button:hover{
+}
+    .card-button:hover{
     color:green;
     background-color: #9ACD32;
     }
+    .like-button{
+            float:center;
+            padding:6px;
+            color: green;
+            font-size: medium;
+            background: #F4A460;
+            border-radius: 10px;
+            text-align: right;
+    }
+    .like-button:hover{
+        color:green;
+        background-color: #9ACD32;
+        }
 
 
