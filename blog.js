@@ -1,4 +1,3 @@
-//MODAL JS
 var buttons_list=document.querySelectorAll('.card-button');                             //selects the modal popups buttons
 var buttons_like=document.querySelectorAll('.like-button');                             //select the like button                        
 // console.log(buttons_like);
@@ -43,7 +42,7 @@ function like(id){                                                              
     curr.classList.remove("liked");}
     else {
         curr.classList.add("liked");
-        curr.innerHTML="likes ="+1;
+        curr.innerHTML="likes="+1;
     }
     
 }

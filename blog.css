@@ -1,14 +1,42 @@
+body{
+    background: linear-gradient(to right,#9ACD32,#9ACD32);                  
+}
+.title{
+    text-align: center;
+    color:black;
+}
 .header{
-    display:flex;
-    justify-content: center;
-    padding:40px;
-    
+    width: 150px;
+    height:60px;
+    border-radius: 5px;
+    margin:30px 500px 10px 550px;
+    background:#F4A460;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
 }
-.header h2{
-    font-family: fantasy;
-    font-size: 100px;
-    color:chocolate;
+.card-body{
+    background:#F4A460;  
 }
+.card-text{
+    color:black;
+}
+.card-title{
+    color:black;
+    margin-left: 10px;
+}
+
+/*card hovering*/
+/*.card{
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px gray;
+    border: 200px;
+    z-index: 0;
+    transition: 0.2s all;    
+}
+.card:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+    transform:scale(1.05);
+}*/
 
 /* MOdal edits */
 .modal-container1{
@@ -22,9 +50,9 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    }
 
-}
-.modal1{
+    .modal1{
     margin: 20vh 10vw;
     align-items: flex-end;
     justify-content: center;
@@ -32,27 +60,27 @@
     padding:10px;
     border-radius: 20px;
     height:50vh;
-    
-}
-.show{
+    }
+
+    .show{
     display:block;
-}
-.hide{
+    }
+    .hide{
     display:none;
-}
-button{
-    border: black 2px solid;
-    border-bottom-left-radius: 15px;
+    }
+
+    /*button*/
+    button{
     float:center;
     padding:6px;
-    background-color: lightgreen;
+    color: green;
     font-size: medium;
-    border-radius: 50em;
-    transition-duration: 0.4s;
-}
-button:hover{
-    background-color:red;
-    color: white;
-    border-radius: 20px;
+    background: #F4A460;
+    border-radius: 10px;
+    }
+    button:hover{
+    color:green;
+    background-color: #9ACD32;
+    }
 
-}
+
