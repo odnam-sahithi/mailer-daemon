@@ -110,7 +110,7 @@ body{
             font-size: medium;
             background: #F4A460;
             border-radius: 10px;
-            text-align: right;
+            float: right;
     }
     .like-button:hover{
         color:green;
