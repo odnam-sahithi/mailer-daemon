@@ -2,17 +2,20 @@ body{
     background: linear-gradient(to right,#9ACD32,#9ACD32);                  
 }
 .title{
-    text-align: center;
-    color:black;
+    font-family: fantasy;
+    font-size: 100px;
+    border: 0.1px black;
+    background-color: burlywood;
 }
 .header{
-    width: 150px;
-    height:60px;
-    border-radius: 5px;
-    margin:30px 500px 10px 550px;
-    background:#F4A460;
-    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+    display:flex;
+    align-items:flex-end;
+    padding:70px;
+    justify-content: center;
+    align-items: flex-end;
+
 }
+/* CARD EDITS */
 .card-body{
     background:#F4A460;  
 }
@@ -21,7 +24,14 @@ body{
 }
 .card-title{
     color:black;
-    margin-left: 10px;
+    
+}
+.card{
+   margin :0 7px;
+   
+}
+.main-carousel{
+    margin-top:1vh;
 }
 
 /*card hovering*/
