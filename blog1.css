@@ -1,97 +1,112 @@
-body{
-    background: linear-gradient(to right,rgba(226, 144, 20, 0.65),rgba(137, 196, 43, 0.65));
-    background-size: auto;
- 
-    height:100vh;                   
+body {
+  background: linear-gradient(
+    to right,
+    rgba(226, 144, 20, 0.65),
+    rgba(137, 196, 43, 0.65)
+  );
+  background-size: auto;
+
+  height: 100vh;
 }
 .title {
-    display: flex;
-    justify-content: center;
-    font-family: sans-serif;
-    font-size: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: whitesmoke;
-    padding: 15px;
-    border-radius: 10px;
-    z-index: 0;
-  }
-.title:hover{
-   z-index: 1;
-   box-shadow: 0 8px 50px rgba(0,0,0,0.2);
-   transform:scale(1.05);
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 0;
+}
+.title:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 
-.header{
-    display:flex;
-    align-items:flex-end;
-    padding:70px;
-    justify-content: center;
-    align-items: flex-end;
+.header {
+  display: flex;
+  align-items: flex-end;
+  padding: 70px;
+  justify-content: center;
+  align-items: flex-end;
 }
 .form {
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    padding: 60px;
-     width: 50vw;
-    height: 100vh;
-    color: whitesmoke;
-    font-family: sans-serif;
-    z-index: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 60px;
+  width: 50vw;
+  height: 100vh;
+  color: whitesmoke;
+  font-family: sans-serif;
+  z-index: 0;
 }
-.form:hover{
-    z-index:1;
-    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
-    transform:scale(1.05);
+.form:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 .content {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
-#blog-title{
-    border-radius: 10px;
-    height: auto;
-    padding: 10px;
-}
-
-#blog-text{
-    border-radius: 10px;
-    padding:10px;
+#blog-title {
+  border-radius: 10px;
+  height: auto;
+  padding: 10px;
 }
 
-#add-btn{
-    border-radius: 10px;
-    padding: 10px 20px;
-    background-color: whitesmoke;
-    color: black;
-    margin:10px;
-    align-items: center;
-    font-size: 3vh;
-    margin-left: 200px;;
+#blog-text {
+  border-radius: 10px;
+  padding: 10px;
 }
-#add-btn:hover{
-    color: whitesmoke;
-    background-color: black;
+
+#add-btn {
+  /* display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  float: right;
+  border-radius: 10px;
+  padding: 6px 15px;
+
+  background-color: whitesmoke;
+  color: black;
+
+  align-items:flex-end;
+  font-size: 3vh;
+  margin-left: 20vw;
+}
+#add-btn:hover {
+  color: whitesmoke;
+  background-color: black;
 }
 .container0 {
-    display: flex;
-    justify-content: center;
-  }
-  input {
-    width: 100%;
-    padding: 10px;
-  }
-  textarea {
-    width: 100%;
-    padding: 10px;
-    height:100%;
-  }
-  label{
-    font-size: 3.5vh;
-    margin: 10px 0;
-   } 
-::placeholder{
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 100%;
+  padding: 10px;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+}
+label {
+  font-size: 3.5vh;
+  margin: 10px 0;
+}
+::placeholder {
   font-size: 2.5vh;
+}
+.wrap-btn1 {
+
+
+  float: right;
 }
