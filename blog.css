@@ -1,48 +1,45 @@
-body{
-    background: linear-gradient(to right,#9ACD32,#9ACD32);                  
+body {
+  background: linear-gradient(to right, #9acd32, #9acd32);
 }
-.title{
-    font-family: fantasy;
-    font-size: 50px;
-    border: 0.1px black;
-    background-color:#F4A460;
+.title {
+  font-family: fantasy;
+  font-size: 50px;
+  border: 0.1px black;
+  background-color: #f4a460;
 }
-.header{
-    display:flex;
-    align-items:flex-end;
-    padding:70px;
-    justify-content: center;
-    align-items: flex-end;
+.header {
+  display: flex;
+  align-items: flex-end;
+  padding: 70px;
+  justify-content: center;
+  align-items: flex-end;
 }
-.card-body{
-    background:#F4A460;  
+.card-body {
+  background: #f4a460;
 }
-.card-text{
-    color:black;
+.card-text {
+  color: black;
 }
-.card-title{
-    color:black;
-
+.card-title {
+  color: black;
 }
-.card{
-   margin :0 8px;
-   box-shadow: 2px 2px 4px gray;
-
+.card {
+  margin: 0 8px;
+  box-shadow: 2px 2px 4px gray;
 }
-.main-carousel{
-    margin-top:1vh;
+.main-carousel {
+  margin-top: 1vh;
 }
 
-
-.card-body{
-    background:#F4A460;  
+.card-body {
+  background: #f4a460;
 }
-.card-text{
-    color:black;
+.card-text {
+  color: black;
 }
-.card-title{
-    color:black;
-    margin-left: 10px;
+.card-title {
+  color: black;
+  margin-left: 10px;
 }
 
 /*card hovering*/
@@ -60,61 +57,62 @@ body{
 }*/
 
 /* MOdal edits */
-.modal-container1{
-    background-color:rgba(0,0,0,0.3);
-    position:fixed;
-    top:0;
-    /* left:0; */
-    height:100vh;
-    width:100vw;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    }
-
-    .modal1{
-    margin: 20vh 10vw;
-    align-items: flex-end;
-    justify-content: center;
-    background-color: white;
-    padding:10px;
-    border-radius: 20px;
-    height:50vh;
-    }
-
-    .show{
-    display:block;
-    }
-    .hide{
-    display:none;
-    }
-
-    /*button*/
-    .card-button{
-    float:center;
-    padding:6px;
-    color: green;
-    font-size: medium;
-    background: #F4A460;
-    border-radius: 10px;
+.modal-container1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  /* left:0; */
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
-    .card-button:hover{
-    color:green;
-    background-color: #9ACD32;
-    }
-    .like-button{
-            float:center;
-            padding:6px;
-            color: green;
-            font-size: medium;
-            background: #F4A460;
-            border-radius: 10px;
-            float: right;
-    }
-    .like-button:hover{
-        color:green;
-        background-color: #9ACD32;
-        }
 
+.modal1 {
+  margin: 20vh 10vw;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  height: 50vh;
+}
 
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+/*button*/
+.card-button {
+  float: center;
+  padding: 6px;
+  color: green;
+  font-size: medium;
+  background: #f4a460;
+  border-radius: 10px;
+}
+.card-button:hover {
+  color: green;
+  background-color: #9acd32;
+}
+.like-button {
+  float: center;
+  padding: 6px;
+  color: green;
+  font-size: medium;
+  background: #f4a460;
+  border-radius: 10px;
+  float: right;
+}
+.like-button:hover {
+  color: green;
+  background-color: #9acd32;
+}
+.liked {
+  background-color: #E26A9D;
+}

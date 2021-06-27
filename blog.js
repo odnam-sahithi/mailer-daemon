@@ -38,11 +38,12 @@ function like(id){                                                              
 
     var curr=document.getElementById(id);
     if(curr.classList.contains("liked"))
-   { curr.innerHTML="likes ="+0;
+   {   
+       curr.innerHTML='<i class="fas fa-heart"></i>'+" "+24;
     curr.classList.remove("liked");}
     else {
         curr.classList.add("liked");
-        curr.innerHTML="likes="+1;
+        curr.innerHTML='<i class="fas fa-heart"></i>'+" "+25;
     }
     
 }
